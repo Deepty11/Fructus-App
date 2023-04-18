@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                ForEach(fruits.shuffled()) { fruit in
+                    FruitsRow(fruit: fruit)
+                        .padding(.vertical, 4)
+                }
+            }
+            .navigationTitle("Fruits")
         }
-        .padding()
     }
 }
 
