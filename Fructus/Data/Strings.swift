@@ -8,6 +8,7 @@
 import Foundation
 
 let settingsAppDescription = "Most fruits are naturally low in fat, sodium and calories. None has Cholesteol. fruits are source of many essential nutrients such as potassium, dietary fibers, vitamins and much more."
+let customizationDescription = "If you wish you can restart the application by toggling the switch in this box. That way, it starts the onboading process and you will see the welcome screen again."
 
 
 let settingsInfoArray: [[String]] = [["Developer", "John/ Jane"],

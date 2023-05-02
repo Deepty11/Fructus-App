@@ -53,6 +53,7 @@ struct FruitsDetailView: View {
             }
             .edgesIgnoringSafeArea(.top)
         }
+        .navigationViewStyle(StackNavigationViewStyle()) // For solving iPAD slide window issue
     }
 }
 

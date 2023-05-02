@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    //@AppStorage("isOnboarding") var isOnboarding: Bool = true
-    
     var body: some View {
         TabView {
             ForEach(fruits[0...5]) { item in

@@ -36,6 +36,7 @@ struct ContentView: View {
                 }
             }
         }
+        .navigationViewStyle(StackNavigationViewStyle()) // For solving iPAD slide window issue
     }
 }
 
